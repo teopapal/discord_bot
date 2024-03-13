@@ -17,8 +17,7 @@ async def on_message(message):
     target_user_id = 949241373922570240
     if message.author.id == target_user_id:
         await message.channel.send(f'stfu im better')
-    
-#oa
+	    
 @client.event
 async def on_ready():
 	await client.change_presence(activity=Game(name="Subway Surfers"))
