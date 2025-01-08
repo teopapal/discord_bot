@@ -23,7 +23,7 @@ async def on_message(message):
 @client.event
 async def on_message(message):
     if 'max' in message.content.lower():
-        gif = "https://discord.com/channels/1182016042264952984/1182016043628105810/1226911570542727179"
+        gif = "https://tenor.com/el/view/minor-inconvenience-gif-23795670"
         await message.channel.send(gif)
 
 @client.event
