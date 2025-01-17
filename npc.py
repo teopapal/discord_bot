@@ -1,3 +1,4 @@
+#na valw timer opoios grafei ...lepto na ksekinaei timer me auton ton arithmo
 import discord
 from discord import Intents, Client, Game
 
